@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  padding: 0;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 2.2px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 2.2px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main h2 {
+  font-size: 1.5rem;
+  letter-spacing: 2.2px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: blue;
+}
+
+main h3 {
+  font-size: 1rem;
+  letter-spacing: 2.2px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: green;
+}
+
+.list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list ul li {
+  margin: 0 30px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  padding-top: 15px;
+  margin-bottom: 1rem;
+  color: red;
+  font-family: 'Mukta', sans-serif
 }
