@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/labb2-react/static/css/main.cfcafc79.css",
+    "main.js": "/labb2-react/static/js/main.07a5eb56.js",
+    "index.html": "/labb2-react/index.html",
+    "main.cfcafc79.css.map": "/labb2-react/static/css/main.cfcafc79.css.map",
+    "main.07a5eb56.js.map": "/labb2-react/static/js/main.07a5eb56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfcafc79.css",
+    "static/js/main.07a5eb56.js"
+  ]
+}
